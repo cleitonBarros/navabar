@@ -84,7 +84,6 @@ nav:after{
     padding-top: 30em;
     padding-bottom: 25em;
     text-align: center;
-
 }
 #search-form h1{
     font-size: 40px;
@@ -132,9 +131,7 @@ nav:after{
 #lastjob-container ul{
     padding: 0;
     border-radius: 10px;
-    border: 1px solid #ccc;
-
- 
+    border: 1px solid #ccc; 
 }
 #lastjob-container ul li{
     list-style: none;
@@ -142,7 +139,6 @@ nav:after{
     border-bottom: 1px solid #ccc;
     height:80px;
     position:relative;    
-
 }
 #lastjob-container ul li:last-child{
     border: none;
@@ -225,8 +221,8 @@ nav:after{
 }
 /*mais vagas */
 .btnjobs-container{
-    margin-top: 50px;
-    
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
  .btn-jobs{
      text-transform: uppercase;
@@ -237,11 +233,91 @@ nav:after{
      border-radius: 5px;
      text-decoration: none;
      font-weight: bold;
-     transition: 0.5s;
-    
+     transition: 0.5s; 
  }
  .btn-jobs:hover{
      background-color: #3381f3;
      color:snow;
  }
+/*Enviar vagas*/
+#sendjob-container{
+    background: url('img/banner2.jpg') no-repeat;
+    background-size:cover;
+    background-position: 0 25%;
+    padding: 15em 0;
+}
+#sendjob-container h2, #sendjob-container p{
+    width: 650px;
+    margin-bottom: 50px;
+    color: snow
+}
+#sendjob-container h2{
+    font-size: 36px;
+}
+#sendjob-container p{
+    font-size: 18px;
+}
+.btn-light{
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #666;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.5;    
+}
+.btn-light:hover{
+    background-color:transparent;
+    color: #fff
 
+}
+#status-container{
+   
+    padding: 5em 0;
+    text-align: center;
+}
+ .title-center{
+     font-size: 39px;
+     margin-bottom: 30px;
+     text-align: center;
+
+ }
+ .p-center{
+     position: relative;
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto; 
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 18px;
+   
+ }
+.status-box{
+ display: inline-block;
+ text-align: center;
+ width: 24%;
+ margin-top: 80px;
+ border-left: 1px solid black ;
+ border-right: 1px solid black;
+ height: 120px;
+ 
+}
+.status-box:nth-child(2) {
+    border: none;
+
+}
+.status-box:nth-child(3) {
+    border-right: none;
+
+}
+.status-qtd{
+    font-size: 50px;
+    
+
+}
+.status-text{
+    font-size: 20px;
+
+}
