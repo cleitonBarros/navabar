@@ -321,3 +321,64 @@ nav:after{
     font-size: 20px;
 
 }
+/*comentario de clientes*/
+#testmoby-container{
+    background: url('img/banner7.jpg') no-repeat;
+    background-size: cover;
+    padding: 10em 0;
+}
+#testmoby-container h2, #testmoby-container p{
+    color: #fff;
+    text-align: center;
+
+}
+#testmoby-container h2{
+ font-size: 36px;
+ margin-bottom: 50px
+}
+ #testmoby-container p{
+margin-bottom: 50px;
+ }
+ .testmoby-box{
+     display: inline-block;
+     width: 24%;
+     text-align: center;
+ }
+ #testmoby-container .testmoby-box .testmoby-msg{
+     background-color: snow;
+     color: black;
+     width: 50%;
+     position: relative;
+     margin: 35px  auto;
+     font-style: italic;
+     border-radius: 10px;
+     position: relative;
+     padding: 20px;
+ }
+ .testmoby-msg:after{
+     content: "";
+     height: 0;
+     width: 0;
+     border-left: 20px solid transparent;
+     border-right: 20px solid transparent;
+     border-top: 20px solid snow;
+     bottom:20px;
+     position: absolute;
+     bottom:-20px;
+     left: 0;
+     right: 0;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .testmoby-box img{
+     height: 60%;
+     width: 40%;
+     border:  1px solid black;
+     border-radius: 50%;
+     background-color:transparent;
+
+ }
+ .testmoby-box p{
+     font-weight: bold;
+ }
+ 
