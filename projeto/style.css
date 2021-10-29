@@ -11,7 +11,10 @@ h1, h2, h3, h4, h5 , p ,span{
 }
 .container{
     max-width: 1920px;
-    width: 100%;
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 /*header*/
 header {
@@ -46,7 +49,7 @@ nav:after{
     width: 50px;
     height: 50px;
     margin-top:25px;
-    float: left;
+    
   
 }
 .nav-container ul{
@@ -55,7 +58,7 @@ nav:after{
     line-height:100px ;
     margin: 0;
 }
-.nav-container li{
+.nav-container ul li{
     list-style:  none;
     float: left;
     margin: 0 15px;
@@ -81,8 +84,8 @@ nav:after{
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 30em;
-    padding-bottom: 25em;
+    padding-top: 15em;
+    padding-bottom: 15em;
     text-align: center;
 }
 #search-form h1{
@@ -520,3 +523,52 @@ footer-list li{
     font-weight: 600;
     margin-top: 40px;
 }
+/*responsivo*/
+/*@media screen and (max-width: 1024px) {
+     
+    #logo {
+        position: absolute;
+        left: 50px
+    }
+    .nav-container ul {
+        float: none;
+        text-align: center;
+        padding:0;
+    }
+    .nav-container ul li{
+        position: relative;
+        margin-left: auto;
+        margin-right:auto;
+        float: none;
+        display: inline-block;
+        margin: 0 10px;
+
+    }
+    
+    #search-form{
+        padding-top: 30em;
+        padding-bottom: 5em;
+    }
+    #search-form form {
+        width: 60%;
+        position: relative;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #search-form form input {
+        display: block;
+        margin:0; 
+        margin-bottom: 25px;
+        width: 100%;
+        border-width: 0;
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+ 
+    #lastjob-container.wrapper, #startjob-container.wrapper, #blog-container.wrapper, .wrapper{
+        max-width:960px;
+        padding-left: 2em;
+        padding-right: 2em
+
+    }
+}*/
